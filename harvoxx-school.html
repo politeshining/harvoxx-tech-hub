@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvoxx Tech. Hub</title>
+    <link rel="icon" href="assets/img/logo.png" type="png">
+    <!-- <link rel="stylesheet" href="assets/lib/aos-master/dist/aos.css"> -->
+    <link rel="stylesheet" href="assets/lib/boxicons-2.1.4/boxicons-2.1.4/css/boxicons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="assets/img/logo.png" alt="Logo">
+        </a>
+
+        <ul class="nav_list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="#" class="active">Harvoxx School</a></li>
+            <li><a href="index.html#events">Events</a></li>
+
+            <div class="header_button">
+                <a href="index.html" class="btn_border header_btn-learn">Learn More</a>
+                <a href="index.html" class="btn header_btn">Get Started</a>
+            </div>
+        </ul>
+
+        <div class="toggle_menu">
+            <i class="bx bx-menu"></i>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Services section -->
+        <section class="harvoxx pricing_section" id="pricing">
+            <div class="harvoxx_section section_p1">
+                <div class="pricing_text" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="title_container">
+                        <h2 class="section_title">Our <span>Pricing</span></h2>
+                        <img src="assets/img/section_vector.png" alt="">
+                    </div>
+                    <p class="pricing_description">
+                        Choose from a range of pricing options tailored to fit your <span>goals and budget.</span>
+                    </p>
+                </div>
+
+                <div class="harvoxx_category" data-aos="fade-down" data-aos-duration="1000">
+                    <div class="search_box">
+                        <input type="text" class="search_input" placeholder="Search courses here...">
+                        <button class="search_btn btn">
+                            <i class="bx bx-search"></i>
+                            Search
+                        </button>
+                    </div>
+
+                    <div class="filter_buttons">
+                        <button class="filter_btn btn_border active" data-filter="all">All</button>
+                        <button class="filter_btn btn_border" data-filter="proDesign">Product Design</button>
+                        <button class="filter_btn btn_border" data-filter="proManagement">Product Management</button>
+                        <button class="filter_btn btn_border" data-filter="webDev">Web Development</button>
+                        <button class="filter_btn btn_border" data-filter="digitalMarketing">Digital Marketing</button>
+                        <button class="filter_btn btn_border" data-filter="graphicsDesign">Graphics Design</button>
+                        <button class="filter_btn btn_border" data-filter="mobileAppDev">Mobile App Development</button>
+                        <button class="filter_btn btn_border" data-filter="dataScience">Data Science</button>
+                        <button class="filter_btn btn_border" data-filter="dataAnalytics">Data Analytics</button>
+                        <button class="filter_btn btn_border" data-filter="cybersecurity">Cybersecurity</button>
+                    </div>
+                </div>
+
+                <div class="no_course-message section_p1"
+                    style="display: none; justify-content: center; align-items: center;">
+                    <p>No course available for your search</p>
+                </div>
+
+                <div class="pricing_section-box" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="pro_container proManagement" data-name="product management">
+                        <img src="assets/img/p2.png" alt="" class="pro_img">
+                        <h5>PRODUCT MANAGEMENT</h5>
+                        <h6>Full Package</h6>
+                        <div class="duration">
+                            <i class='bx bxs-time-five'></i>
+                            3 Months
+                        </div>
+                        <div class="tools">
+                            <h6>Tools:</h6>
+                            <p>
+                                Jira, Slack, Whimsical, Sketch Asana, Roadmunk, Trello, Github...
+                                <a href="#">Read More</a>
+                            </p>
+                        </div>
+                        <button class="pricing_btn btn" onclick="window.location.href='pricing.html#proManagement'">View
+                            Details</button>
+                    </div>
+
+                    <div class="pro_container proDesign" data-name="product design">
+                        <img src="assets/img/p1.png" alt="" class="pro_img">
+                        <h5>PRODUCT DESIGN (UI/UX)</h5>
+                        <h6>Full Package</h6>
+                        <div class="duration">
+                            <i class='bx bxs-time-five'></i>
+                            3 Months
+                        </div>
+                        <div class="tools">
+                            <h6>Tools:</h6>
+                            <p>
+                                Figma, User Experience (UX), Product Requirement Document (PRD)
+                            </p>
+                        </div>
+                        <button class="pricing_btn btn" onclick="window.location.href='pricing.html#proDesign'">View
+                            Details</button>
+                    </div>
+
+                    <div class="pro_container webDev" data-name="web development frontend">
+                        <img src="assets/img/p3.png" alt="" class="pro_img">
+                        <h5>WEB DEV. (FRONTEND)</h5>
+                        <h6>Basic - Intermediate</h6>
+                        <div class="duration">
+                            <i class="bx bxs-time-five"></i>
+                            3 Months
+                        </div>
+                        <div class="tools">
+                            <h6>Tools:</h6>
+                            <p>
+                                HTML, CSS, Javascript
+                            </p>
+                        </div>
+                        <button class="pricing_btn btn" onclick="window.location.href='pricing.html#webDev'">View
+                            Details</button>
+                    </div>
+
+                    <div class="pro_container webDev" data-name="web development backend">
+                        <img src="assets/img/p4.png" alt="" class="pro_img">
+                        <h5>WEB DEV. (BACKEND)</h5>
+                        <h6>Full Package</h6>
+                        <div class="duration">
+                            <i class="bx bxs-time-five"></i>
+                            4 Months
+                        </div>
+                        <div class="tools">
+                            <h6>Tools:</h6>
+                            <p>
+                                PHP, Vue Js, MySql, Node.js
+                            </p>
+                        </div>
+                        <button class="pricing_btn btn" onclick="window.location.href='pricing.html#webDev'">View
+                            Details</button>
+                    </div>
+
+                    <div class="pro_container webDev" data-name="web development fullstack">
+                        <img src="assets/img/p5.png" alt="" class="pro_img">
+                        <h5>WEB DEV. (FULL STACK)</h5>
+                        <h6>Full Package</h6>
+                        <div class="duration">
+                            <i class="bx bxs-time-five"></i>
+                            6 Months
+                        </div>
+                        <div class="tools">
+                            <h6>Tools:</h6>
+                            <p>
+                                HTML, CSS, JavaScript, REACT, VUE JS, PHP, NODE JS, GOLANG...
+                                <a href="#">Read More</a>
+                            </p>
+                        </div>
+                        <button class="pricing_btn btn" onclick="window.location.href='pricing.html#webDev'">View
+                            Details</button>
+                    </div>
+
+                    <div class="pro_container digitalMarketing" data-name="digital marketing">
+                        <img src="assets/img/p6.png" alt="" class="pro_img">
+                        <h5>DIGITAL MARKETING</h5>
+                        <h6>Basic - Intermediate</h6>
+                        <div class="duration">
+                            <i class="bx bxs-time-five"></i>
+                            3 Months
+                        </div>
+                        <div class="tools">
+                            <h6>Tools:</h6>
+                            <p>
+                                SM- Marketing, Content Marketing, Email Marketing...
+                                <a href="#">Read More</a>
+                            </p>
+                        </div>
+                        <button class="pricing_btn btn"
+                            onclick="window.location.href='pricing.html#digitalMarketing'">View
+                            Details</button>
+                    </div>
+
+                    <div class="pro_container digitalMarketing" data-name="digital marketing">
+                        <img src="assets/img/p6.png" alt="" class="pro_img">
+                        <h5>DIGITAL MARKETING</h5>
+                        <h6>Advanced</h6>
+                        <div class="duration">
+                            <i class="bx bxs-time-five"></i>
+                            3 Months
+                        </div>
+                        <div class="tools">
+                            <h6>Tools:</h6>
+                            <p>
+                                SM- Marketing, Content Marketing, Email Marketing...
+                                <a href="#">Read More</a>
+                            </p>
+                        </div>
+                        <button class="pricing_btn btn"
+                            onclick="window.location.href='pricing.html#digitalMarketing'">View
+                            Details</button>
+                    </div>
+
+                    <div class="pro_container graphicsDesign" data-name="graphics design">
+                        <img src="assets/img/p7.png" alt="" class="pro_img">
+                        <h5>GRAPHICS DESIGN</h5>
+                        <h6>Full Package</h6>
+                        <div class="duration">
+                            <i class="bx bxs-time-five"></i>
+                            3 Months
+                        </div>
+                        <div class="tools">
+                            <h6>Tools:</h6>
+                            <p>
+                                CorelDRAW, Adobe Photoshop
+                            </p>
+                        </div>
+                        <button class="pricing_btn btn"
+                            onclick="window.location.href='pricing.html#graphicsDesign'">View
+                            Details</button>
+                    </div>
+
+                    <div class="pro_container mobileAppDev" data-name="mobile app development">
+                        <img src="assets/img/p8.png" alt="" class="pro_img">
+                        <h5>MOBILE APP DEV.</h5>
+                        <h6>Full Package</h6>
+                        <div class="duration">
+                            <i class="bx bxs-time-five"></i>
+                            4 Months
+                        </div>
+                        <div class="tools">
+                            <h6>Tools:</h6>
+                            <p>
+                                Flutter (Dart), React Native
+                            </p>
+                        </div>
+                        <button class="pricing_btn btn" onclick="window.location.href='pricing.html#mobileAppDev'">View
+                            Details</button>
+                    </div>
+
+                    <div class="pro_container dataScience" data-name="data science">
+                        <img src="assets/img/p6.png" alt="" class="pro_img">
+                        <h5>DATA SCIENCE</h5>
+                        <h6>Full Package</h6>
+                        <div class="duration">
+                            <i class="bx bxs-time-five"></i>
+                            3 Months
+                        </div>
+                        <div class="tools">
+                            <h6>Tools:</h6>
+                            <p>
+                                Python(Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn)...
+                                <a href="#">Read More</a>
+                            </p>
+                        </div>
+                        <button class="pricing_btn btn" onclick="window.location.href='pricing.html#dataScience'">View
+                            Details</button>
+                    </div>
+
+                    <div class="pro_container dataAnalytics" data-name="data analytics">
+                        <img src="assets/img/p9.png" alt="" class="pro_img">
+                        <h5>DATA ANALYTICS</h5>
+                        <h6>Basic - Intermediate</h6>
+                        <div class="duration">
+                            <i class="bx bxs-time-five"></i>
+                            3 Months
+                        </div>
+                        <div class="tools">
+                            <h6>Tools:</h6>
+                            <p>
+                                Excel, Power BI, SQL, Python
+                            </p>
+                        </div>
+                        <button class="pricing_btn btn" onclick="window.location.href='pricing.html#dataAnalytics'">View
+                            Details</button>
+                    </div>
+
+                    <div class="pro_container dataAnalytics" data-name="data analytics">
+                        <img src="assets/img/p11.png" alt="" class="pro_img">
+                        <h5>DATA ANALYTICS</h5>
+                        <h6>Advanced</h6>
+                        <div class="duration">
+                            <i class="bx bxs-time-five"></i>
+                            5 Months
+                        </div>
+                        <div class="tools">
+                            <h6>Tools:</h6>
+                            <p>
+                                Adv. Excel, Power BI, Adv. SQL, Adv. Python, Tableau
+                            </p>
+                        </div>
+                        <button class="pricing_btn btn" onclick="window.location.href='pricing.html#dataAnalytics'">View
+                            Details</button>
+                    </div>
+
+                    <div class="pro_container cybersecurity" data-name="cybersecurity">
+                        <img src="assets/img/p10.png" alt="" class="pro_img">
+                        <h5>CYBER SECURITY</h5>
+                        <h6>Basic - Intermediate</h6>
+                        <div class="duration">
+                            <i class="bx bxs-time-five"></i>
+                            3 Months
+                        </div>
+                        <div class="tools">
+                            <h6>Tools:</h6>
+                            <p>
+                                Nmap, Burp Suite, Nessus, firece, Wfuzz
+                            </p>
+                        </div>
+                        <button class="pricing_btn btn" onclick="window.location.href='pricing.html#cybersecurity'">View
+                            Details</button>
+                    </div>
+
+                    <div class="pro_container cybersecurity" data-name="cybersecurity">
+                        <img src="assets/img/p10.png" alt="" class="pro_img">
+                        <h5>CYBER SECURITY</h5>
+                        <h6>Advanced</h6>
+                        <div class="duration">
+                            <i class="bx bxs-time-five"></i>
+                            6 Months
+                        </div>
+                        <div class="tools">
+                            <h6>Tools:</h6>
+                            <p>
+                                Nmap, Katana, Nuclei, Wireshark, Splunk, Metasploit...
+                                <a href="#">Read More</a>
+                            </p>
+                        </div>
+                        <button class="pricing_btn btn" onclick="window.location.href='pricing.html#cybersecurity'">View
+                            Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact section_p1" id="contact">
+            <div class="title_container" data-aos="fade-down" data-aos-duration="1000">
+                <h2 class="section_title">Our Contact Information</h2>
+                <img src="assets/img/contact_vector.png" alt="">
+            </div>
+            <p class="contact_text" data-aos="fade-down" data-aos-duration="1000">
+                Reach out to us for <span>inquiries</span> or <span>support</span>--we're here to help.
+            </p>
+
+            <div class="contact_container">
+                <div class="contact_box">
+                    <div class="contact_text-box">
+                        <h2 class="section_title box_title">Get in Touch with Us</h2>
+                        <p class="box_text">
+                            We're here to answer your questions and help you take the next step toward
+                            <span> innovative solutions.</span>
+                        </p>
+                    </div>
+
+                    <div class="contact_info">
+                        <div class="info">
+                            <i class="bx bxs-phone"></i>
+                            <p>
+                                +2349011684637 <br>
+                                +2349065308024 <br>
+                                +2349030643105
+                            </p>
+                        </div>
+
+                        <div class="info">
+                            <i class="bx bxs-envelope"></i>
+                            <p>
+                                Hello@harvoxx.com <br>
+                                Help@harvoxx.com <br>
+                                Admin@harvoxx.com
+                            </p>
+                        </div>
+
+                        <div class="info">
+                            <i class="bx bxs-map"></i>
+                            <p>
+                                Elzazi complex, Opposite Westharm petrol station along gbalajam/Akpajo road, woji (Odili
+                                Road, Port-Harcourt)
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="social_media">
+                        <p>All Our Socials</p>
+                        <div class="social_icon">
+                            <a href="#" class="icon">
+                                <i class="bx bxl-facebook"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="bx bxl-twitter"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="bx bxl-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="box_overlay">
+                        <img src="assets/img/c-overlay2.png" alt="" class="overlay1">
+                        <img src="assets/img/c-overlay.png" alt="" class="overlay2">
+                    </div>
+                </div>
+
+                <form action="" class="contact_box">
+                    <div class="form_group">
+                        <div class="input_box">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="input_field" placeholder="Enter your full name">
+                        </div>
+
+                        <div class="input_box">
+                            <label for="email">Your Email Address</label>
+                            <input type="email" id="email" class="input_field" placeholder="Enter your email address">
+                        </div>
+                    </div>
+
+                    <div class="input_box box-1">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" class="input_field"
+                            placeholder="Enter the subject of your message">
+                    </div>
+
+                    <div class="input_box">
+                        <label for="message">Message</label>
+                        <textarea name="" id="message" placeholder="Type your message here"></textarea>
+                    </div>
+
+                    <button type="submit" class="form_btn btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_container container-1 section_p1">
+            <h1 class="footer_title"><span>Harvoxx</span> Tech. Hub.</h1>
+            <p class="footer_description">
+                Get latest latest info's on our Events, trainings and tech presentations. Subscribe below.
+            </p>
+            <div class="form_box">
+                <input type="email" placeholder="Enter your email address">
+                <button type="submit" class="footer_btn btn">Subscribe</button>
+            </div>
+        </div>
+        <div class="footer_container container-2 section_p1">
+            <div class="footer_logo">
+                <img src="assets/img/logo.png" alt="">
+                <h3 class="logo_text">
+                    Redefining possibilities with <br>cutting-edge tech solutions.
+                </h3>
+            </div>
+
+            <div class="footer_nav">
+                <div class="nav_content">
+                    <h4>Company</h4>
+
+                    <div class="nav_list">
+                        <a href="#home">Home</a>
+                        <a href="#about">About Us</a>
+                        <a href="#services">Services</a>
+                        <a href="#testimonials">Testimonials</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#events">Events</a>
+                        <a href="#contact">contact</a>
+                    </div>
+                </div>
+
+                <div class="nav_content">
+                    <h4>Company</h4>
+
+                    <div class="nav_list">
+                        <a href="#">Website Development</a>
+                        <a href="#">Mobile App Development</a>
+                        <a href="#">Branding & Marketing</a>
+                        <a href="#">Testimonials</a>
+                        <a href="#">Consultancy</a>
+                        <a href="#">Harvoxx School</a>
+                        <a href="#">HARVCUBATION</a>
+                    </div>
+                </div>
+
+                <div class="nav_content">
+                    <h4>Support</h4>
+
+                    <div class="nav_list">
+                        <a href="#">Help Center</a>
+                        <a href="#">Customer Support</a>
+                        <a href="#">Report an Issue</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copy">
+            <p>&copy; Copyright All Rights Reserved 2024, Harvoxx Tech. Hub</p>
+        </div>
+    </footer>
+
+    <!-- <script src="assets/lib/aos-master/dist/aos.js"></script> -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/harvoxx-school.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
