@@ -101,6 +101,10 @@ const swiperEvent = new Swiper('.event_box', {
             slidesPerView: 1,
             spaceBetween: 20,
         },
+        900: {
+            slidesPerView: 1.1,
+            spaceBetween: 20,
+        },
         1000: {
             slidesPerView: 1.1,
             spaceBetween: 20,

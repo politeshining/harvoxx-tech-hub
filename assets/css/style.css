@@ -457,11 +457,11 @@ span {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-image: url('../img/home_img2.png');
+    background-size: cover;
 }
 
 .home .home_content {
-    background-image: url('../img/home_img2.png');
-    background-size: cover;
     height: 100vh;
     height: 100dvh;
     width: 100dvw;
@@ -477,6 +477,9 @@ span {
     font-weight: var(--w-6);
     color: var(--bg-color);
     text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 10px;
 }
 
 .home_content .home_text {
@@ -485,6 +488,7 @@ span {
     text-align: center;
     margin-bottom: 24px;
     max-width: 650px;
+    padding: 0 20px;
 }
 
 .home_content .home_button {
@@ -1162,11 +1166,12 @@ span {
 }
 
 .footer_description {
-    margin: 13px 0 8px;
+    margin: 13px auto 8px;
     font-size: 20px;
-    font-weight: var(--w-5);
+    font-weight: var(--w-4);
     line-height: 100%;
     text-align: center;
+    max-width: 700px;
 }
 
 .footer_container.container-1 .form_box {
@@ -1840,6 +1845,16 @@ span {
         padding: 105px 40px;
     }
 
+    .pricing_container .pricing_btn-next,
+    .events_btn-next {
+        right: 1.3rem;
+    }
+
+    .pricing_container .pricing_btn-prev,
+    .events_btn-prev {
+        left: 1.3rem;
+    }
+
     /* payment page */
     .payment_container {
         grid-gap: 40px;
@@ -1937,6 +1952,16 @@ span {
         align-self: center;
     }
 
+    .pricing_container .pricing_btn-next,
+    .events_btn-next {
+        right: 0;
+    }
+
+    .pricing_container .pricing_btn-prev,
+    .events_btn-prev {
+        left: 0;
+    }
+
     .dsp .dsp_container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -2020,35 +2045,19 @@ span {
         font-size: 14px;
     }
 
+    .btn,
+    .btn_border {
+        font-size: 14px;
+        padding: 6.3px 15px;
+    }
+
     .home_content .home_title {
         font-size: 32px;
     }
 
-    /*
-    .header .nav_list {
-        gap: 35px;
+    .about_content .about_title {
+        font-size: 28px;
     }
-
-    .home_container h1 {
-        font-size: 35px;
-    }
-
-    .about .about_content .about_description,
-    .home_container .home_description {
-        font-size: 16px;
-    }
-
-    .home_btn .btn_home.btn,
-    .home_btn .btn_home.btn_border,
-    .header_button .btn,
-    .header_button .btn_border {
-        font-size: 14px;
-    }
-
-    .pricing_container .section_title {
-        font-size: large;
-    }
-*/
 
     .pricing_container .pricing_description {
         text-align: left;
@@ -2140,7 +2149,6 @@ span {
 
     .footer_description {
         font-size: 14px;
-        text-align: left;
         line-height: 1.5;
     }
 
@@ -2176,8 +2184,14 @@ span {
 @media screen and (max-width: 404px) {
 
     .home_btn,
-    .home_btn-learn {
-        font-size: 14px;
+    .home_btn-learn,
+    .header_button .btn,
+    .header_button .btn_border {
+        font-size: 12px;
+    }
+
+    .about_content .about_title {
+        font-size: 24px;
     }
 
     .contact_container .contact_box:nth-child(2) .form_group {
@@ -2190,6 +2204,10 @@ span {
 
     .harvoxx .pro_container .pro_img {
         height: 164px;
+    }
+
+    .footer_title {
+        font-size: 30px;
     }
 }
 
@@ -2280,7 +2298,7 @@ span {
     }
 
     .footer_copy p {
-        padding: 0px 10px;
+        padding: 10px;
         text-align: left;
     }
 

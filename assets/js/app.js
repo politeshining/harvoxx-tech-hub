@@ -1,4 +1,4 @@
-// AOS.init();
+AOS.init();
 
 const navMenu = document.querySelector('.nav_list');
 const navToggle = document.querySelector('.toggle_menu');
