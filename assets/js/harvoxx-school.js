@@ -97,8 +97,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 searchResult();
             });
         }
-    } else {
-        alert("Search input not found");
     }
 
     function searchResult() {
