@@ -46,24 +46,12 @@ select {
     font-weight: var(--weight-400);
 }
 
-/* html {
-    overflow-x: hidden;
-} */
-
 body {
     background: var(--body-color);
     font-family: var(--body-font);
     overflow-x: hidden;
 }
 
-html {
-    overflow-x: hidden;
-    /* overflow-y: auto; */
-}
-
-body::-webkit-scrollbar {
-    display: none;
-}
 
 h1,
 h2,
@@ -461,6 +449,10 @@ span {
 }
 
 /* ========Home section======== */
+main {
+    overflow-x: hidden;
+}
+
 .home_container {
     display: flex;
     align-items: center;
@@ -908,6 +900,10 @@ span {
     gap: 20px;
     overflow-x: auto;
     padding: 10px;
+    /* background: red; */
+    /* max-width: 400px; */
+    width: 100%;
+    margin-inline: auto;
 }
 
 .fame_container .fame_card-box::-webkit-scrollbar {
@@ -1900,6 +1896,11 @@ span {
         font-size: 18px;
     } */
 
+    .fame_container .fame_card-box {
+        width: 100%;
+        max-width: 450px;
+    }
+
     .pricing_box .pro_container {
         height: 365px;
     }
@@ -1975,12 +1976,13 @@ span {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .frame_container .frame_card-box {
+    /* .fame_container .fame_card-box {
         display: grid;
         align-items: center;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-    }
+        width: 70%;
+    } */
 
     .footer_container.container-1 {
         padding: 100px 40px;
@@ -2086,6 +2088,15 @@ span {
         font-size: large;
     }
 */
+    .contact {
+        padding-top: 2rem;
+    }
+
+    .contact_text-box .box_text,
+    .contact_info .info p {
+        font-size: 14px;
+    }
+
     .contact_container .contact_box:nth-child(1),
     .contact_container .contact_box:nth-child(2) {
         padding: 20px 15px;
@@ -2183,6 +2194,10 @@ span {
 
     .payment_box .contact_form .input_box {
         gap: 0px;
+    }
+
+    .payment_content .payment_img {
+        display: none;
     }
 
     .input_box.box-1 {

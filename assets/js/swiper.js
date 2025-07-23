@@ -145,19 +145,19 @@ const swiperFames = new Swiper('.fame_card-box', {
 
     breakpoints: {
         320: {
-            slidesPerView: 1.2,
+            slidesPerView: 1,
             spaceBetween: 20,
         },
         350: {
-            slidesPerView: 1.4,
+            slidesPerView: 1,
             spaceBetween: 20,
         },
         576: {
-            slidesPerView: 2.4,
+            slidesPerView: 1,
             spaceBetween: 20,
         },
         1000: {
-            slidesPerView: 2.7,
+            slidesPerView: 2,
             spaceBetween: 20,
         },
         1200: {

@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (courseName && courseName.toLowerCase().includes(searchValue)) {
                 // Highlight the matched text
                 const regex = new RegExp(`(${searchValue})`, 'gi');
-                const highlightedName = courseName.replace(regex, '<strong>$1</strong>');
+                const highlightedName = courseName.replace(regex, '<strong style="text-transform: uppercase;">$1</strong>');
 
                 // Update the innerHTML of the course name element
                 const courseNameElement = course.querySelector('h5'); // Assuming the course name is in an <h5> tag
